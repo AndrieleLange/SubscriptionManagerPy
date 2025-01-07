@@ -68,4 +68,5 @@ class UI:
         self.subscription_service.pay(choice)
 
 
-UI().start()
+if __name__ == '__main__':
+    UI().start()
