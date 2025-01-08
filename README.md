@@ -5,3 +5,30 @@ Este projeto segue o evento [Pythonando]([https://pythonando.com.br/evento/](htt
 ## Melhorias realizadas
 - Tratamento de exceções
 - terminal colorido com mensagens de sucesso e erro
+
+## Configurações
+
+### Criar ambiente virtual
+### Linux
+` python3 -m venv venv `
+### Windows
+` python -m venv venv `
+
+### Ativar ambiente virtual 
+### Linux
+` source venv/bin/activate `
+### Windows
+` venv\Scripts\Activate `
+### Caso algum comando retorne um erro de permissão execute o código e tente novamente:
+`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned `
+
+### instalações
+`pip install sqlmodel ` 
+`pip install pyqt5  ` 
+`pip install matplotlib`
+
+## Rodar o programa
+` python .\templates\app.py ` 
+
+
+
